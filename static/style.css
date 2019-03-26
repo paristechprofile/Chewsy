@@ -1,0 +1,37 @@
+html {
+	scroll-behavior: smooth;
+}
+
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+}
+
+.row{
+	justify-content: center;
+}
+
+.row1{
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.col-6{
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	 
+}
+
+.col-12{
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	padding-right: 0em;
+}
