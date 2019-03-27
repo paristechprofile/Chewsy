@@ -9,6 +9,11 @@ html {
   color: black;
 
 }
+.clear{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
 .container-fluid{
   background-color: #f6f6f6;
 }
@@ -47,7 +52,8 @@ p{
   color: #000000;
 }
 body {
-	position: relative;
+  position: relative;
+  padding:0px !important;
 }
 .first_name{
   display: none !important;
@@ -57,7 +63,7 @@ body {
  display: none !important;
 }
 ​
-.success1{
+.success{
  display: none !important;
 }
 .jumbotronButton, .btn{
@@ -185,6 +191,120 @@ svg {
   border-radius: .3rem;
 }
 
+form>p{
+  justify-content: center;
+}
+
+.footer{
+  justify-content: center;
+  text-align: center;
+  padding-top: 65px !important; 
+  padding-bottom: 41px !important;
+
+}
+
+.product{
+  background-color: #5e9cfc !important;
+  padding-top: 48px;
+  padding-left: 181px;  
+  padding-right: 181px;  
+  padding-bottom: 8px;  
+}
+.product1{
+  background-color: #5e9cfc !important;
+  padding-right: 181px; 
+}
+.product2{
+  display: flex;
+  justify-content: center;
+  background-color: #5e9cfc !important;
+  padding-right: 25px;  
+}
+.product3{
+  display: flex;
+  justify-content: center;
+  background-color: #5e9cfc !important;
+  padding-right: 15px;  
+  padding-top: 23px;  
+}
+.tinyImg{
+  height: 289px;
+  justify-content: center;
+}
+#carouselExampleSlidesOnly{
+  margin-bottom: 0;
+}
+.email3{
+  background-color: #fc725e !important;
+  padding-top: 48px;
+  padding-left: 16px;  
+  padding-right: 80px;  
+  padding-bottom: 8px;  
+}
+.email1{
+  background-color: #fc725e !important;
+  padding-right: 15px;  
+}
+.email2{
+  background-color: #fc725e !important;
+  padding-right: 15px;  
+}
+@media only screen and (max-width: 500px) {
+	html {
+		font-size: 14px;
+	}
+  h1,h2,h3,h4{
+    font-size: 1.5em;
+  }
+  .d-block{
+    height: 200%;
+    width: 200%;
+  }
+  .carousel {
+    height: 289 !important;
+  }
+	nav {
+		display: none;
+	}
+
+	nav {
+		background-color: transparent;
+	}
+
+	.hamburger {
+		display: block;
+		color: #fff;
+		font-size: 1.7rem;
+		position: absolute;
+		top: 10px;
+		left: 2px;
+	}
+  .jumbotron2 {
+    padding: 4rem 2rem;
+    }
+  .carousel {
+    height: 480px;
+  }
+  .carousel-item .active .carousel-inner {
+    height: 25em;
+  }
+	footer button {
+		width: 300px;
+	}
+	
+	footer input {
+		margin-right: 0;
+	}
+}
+.footer{
+  justify-content: center;
+  text-align: center;
+  padding-top: 65px !important;  
+  padding-bottom: 41px !important;
+
+}
+
+
 .product{
   background-color: #5e9cfc !important;
   padding-top: 48px;
@@ -230,52 +350,4 @@ svg {
 .email2{
   background-color: #fc725e !important;
   padding-right: 15px;  
-}
-form>p{
-  justify-content: center;
-}
-
-@media only screen and (max-width: 500px) {
-	html {
-		font-size: 14px;
-	}
-  h1,h2,h3,h4{
-    font-size: 1.5em;
-  }
-  .d-block{
-    height: 200%;
-    width: 200%;
-  }
-	nav {
-		display: none;
-	}
-
-	nav {
-		background-color: transparent;
-	}
-
-	.hamburger {
-		display: block;
-		color: #fff;
-		font-size: 1.7rem;
-		position: absolute;
-		top: 10px;
-		left: 2px;
-	}
-  .jumbotron2 {
-    padding: 4rem 2rem;
-    }
-  .carousel {
-    height: 480px;
-  }
-  .carousel-item .active .carousel-inner {
-    height: 25em;
-  }
-	footer button {
-		width: 300px;
-	}
-	
-	footer input {
-		margin-right: 0;
-	}
 }

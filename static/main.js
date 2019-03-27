@@ -12,15 +12,15 @@ $(document).ready(function () {
         if(!(/^[a-zA-Z]+$/.test(datastring[1].value))){
             // alert('Please Type a valid name1')
             $( ".first_name" ).show( )
-            $(".clear1").hide()
-            $(".clear1").attr("disabled", true);
+            $(".clear").hide()
+            $(".clear").attr("disabled", true);
         }
 
         else if(!(/^[a-zA-Z]+$/.test(datastring[2].value))){
             // alert('Please Type a valid name1')
             $( ".last_name" ).show( )
-            $(".clear1").hide()
-            $(".clear1").attr("disabled", true);
+            $(".clear").hide()
+            $(".clear").attr("disabled", true);
 
         } 
 
@@ -32,7 +32,7 @@ $(document).ready(function () {
         
 
        else {
-            $(".clear1").show()
+            $(".clear").show()
             $( ".success" ).show( )
         }
         
