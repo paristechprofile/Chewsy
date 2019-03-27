@@ -56,15 +56,13 @@ body {
   padding:0px !important;
 }
 .first_name{
-  display: none !important;
+  display: none ;
 }
-​
 .last_name{
- display: none !important;
+  display: none ;
 }
-​
 .success{
- display: none !important;
+  display: none ;
 }
 .jumbotronButton, .btn{
   display: flex;
@@ -212,19 +210,23 @@ form>p{
 }
 .product1{
   background-color: #5e9cfc !important;
+  
+  padding-left: 181px;  
   padding-right: 181px; 
 }
 .product2{
   display: flex;
   justify-content: center;
   background-color: #5e9cfc !important;
-  padding-right: 25px;  
+  padding-left: 181px;  
+  padding-right: 181px; 
 }
 .product3{
   display: flex;
   justify-content: center;
   background-color: #5e9cfc !important;
-  padding-right: 15px;  
+  padding-left: 181px;  
+  padding-right: 181px;   
   padding-top: 23px;  
 }
 .tinyImg{
@@ -237,17 +239,20 @@ form>p{
 .email3{
   background-color: #fc725e !important;
   padding-top: 48px;
-  padding-left: 16px;  
-  padding-right: 80px;  
+  padding-left: 181px;  
+  padding-right: 181px; 
   padding-bottom: 8px;  
 }
 .email1{
   background-color: #fc725e !important;
-  padding-right: 15px;  
+  padding-left: 181px;  
+  padding-right: 181px; 
 }
 .email2{
   background-color: #fc725e !important;
-  padding-right: 15px;  
+  padding-left: 181px;  
+  padding-right: 181px; 
+  padding-bottom: 133px;
 }
 @media only screen and (max-width: 500px) {
 	html {
@@ -294,60 +299,61 @@ form>p{
 	
 	footer input {
 		margin-right: 0;
-	}
-}
-.footer{
-  justify-content: center;
-  text-align: center;
-  padding-top: 65px !important;  
-  padding-bottom: 41px !important;
-
-}
-
-
-.product{
-  background-color: #5e9cfc !important;
-  padding-top: 48px;
-  padding-left: 16px;  
-  padding-right: 80px;  
-  padding-bottom: 8px;  
-}
-.product1{
-  background-color: #5e9cfc !important;
-  padding-right: 15px;  
-}
-.product2{
-  display: flex;
-  justify-content: center;
-  background-color: #5e9cfc !important;
-  padding-right: 25px;  
-}
-.product3{
-  display: flex;
-  justify-content: center;
-  background-color: #5e9cfc !important;
-  padding-right: 15px;  
-  padding-top: 23px;  
-}
-.tinyImg{
-  height: 289px;
-  justify-content: center;
-}
-#carouselExampleSlidesOnly{
-  margin-bottom: 0;
-}
-.email3{
-  background-color: #fc725e !important;
-  padding-top: 48px;
-  padding-left: 16px;  
-  padding-right: 80px;  
-  padding-bottom: 8px;  
-}
-.email1{
-  background-color: #fc725e !important;
-  padding-right: 15px;  
-}
-.email2{
-  background-color: #fc725e !important;
-  padding-right: 15px;  
+  }
+  .footer{
+    justify-content: center;
+    text-align: center;
+    padding-top: 65px !important;  
+    padding-bottom: 41px !important;
+  
+  }
+  
+  
+  .product{
+    background-color: #5e9cfc !important;
+    padding-top: 48px;
+    padding-left: 16px;  
+    padding-right: 80px;  
+    padding-bottom: 8px;  
+  }
+  .product1{
+    background-color: #5e9cfc !important;
+    padding-right: 15px;  
+  }
+  .product2{
+    display: flex;
+    justify-content: center;
+    background-color: #5e9cfc !important;
+    padding-right: 25px;  
+  }
+  .product3{
+    display: flex;
+    justify-content: center;
+    background-color: #5e9cfc !important;
+    padding-right: 15px;  
+    padding-top: 23px;  
+  }
+  .tinyImg{
+    height: 289px;
+    justify-content: center;
+  }
+  #carouselExampleSlidesOnly{
+    margin-bottom: 0;
+  }
+  .email3{
+    background-color: #fc725e !important;
+    padding-top: 48px;
+    padding-left: 16px;  
+    padding-right: 80px;  
+    padding-bottom: 8px;  
+  }
+  .email1{
+    background-color: #fc725e !important;
+    padding-right: 15px;  
+  }
+  .email2{
+    background-color: #fc725e !important;
+    padding-right: 15px;  
+  }
+  h2{width: 224px !important;}
 }

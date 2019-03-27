@@ -33,7 +33,7 @@ $(document).ready(function () {
 
        else {
             $(".clear").show()
-            $( ".success" ).show( )
+            $( ".success").show( )
         }
         
     })
